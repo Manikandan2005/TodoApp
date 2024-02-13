@@ -28,7 +28,7 @@ function Cards({todo,setTodo}) {
     console.log(newStatus)
   }
 
-  //D - DELETE
+  // D - DELETE
   const handleDelete = (index)=>{
     let newArray = [...todo]
     newArray.splice(index,1)
@@ -81,6 +81,7 @@ function Cards({todo,setTodo}) {
         </div>
       </div>
 
+      {/* C-CREATE */}
       {todo.map((e,index)=>(
         
         <Card className="cards" key={index}>

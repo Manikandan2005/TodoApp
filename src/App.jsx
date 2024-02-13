@@ -35,12 +35,3 @@ function App() {
 }
 
 export default App
-
-
-
-
- {/* {todo.map((e,i)=>{
-      <Cards key={i} todo={e} data={todo} setTodo={setTodo} index={i} edit={edit} setEdit={setEdit} setIndex={setIndex} />
-    })}
-    
-  <EditTask setEdit={setEdit} edit={edit} data={todo} setTodo={setTodo} index={index}/> */}

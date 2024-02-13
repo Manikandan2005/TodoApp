@@ -11,6 +11,8 @@ function EditTask({todo,setTodo}) {
   let [task,setTask]=useState(todo[index].todo)
   let [desc,setDesc]=useState(todo[index].description)
 
+  // EDIT
+
   let handleEdit=()=>{
     let newArray = [...todo]
     newArray.splice(index,1,{
