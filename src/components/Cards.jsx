@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 
 function Cards({todo,setTodo}) {
   let [status,setStatus] = useState(todo.map(()=>'option1'))
-  console.log(status)
   let [to,setTo]=useState("")
   let [des,setDes]=useState("")
   let navigate = useNavigate()
