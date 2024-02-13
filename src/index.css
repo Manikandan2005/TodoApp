@@ -1,0 +1,100 @@
+.heading{
+    color: rgb(14, 203, 112);
+    text-align: center;
+    font-family:cursive
+}
+
+input{
+    height: 30px;
+    width: 350px;
+    border: 2px rgb(14, 203, 112) solid;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.buttonapp{
+    height: 35px;
+    width: 200px;
+    background-color:rgb(14, 203, 112) !important;
+    border: 2px rgb(14, 203, 112) solid !important;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midrow{
+    display: flex;
+    margin-top: 40px; 
+}
+
+.statusfilter{
+    display: flex;
+    margin-left: 900px;
+    margin-bottom: 50px;
+}
+
+.dropdown{
+    background-color:rgb(224, 125, 125);
+    text-align: center;
+    height: 30px;
+
+}
+
+.option{
+    background-color: beige;
+}
+
+.cards{
+    height: 250px !important;
+    width: 400px !important;
+    background-color:rgb(167, 216, 178) !important ;
+    margin-left: 60px !important;
+    display: inline-block !important ;
+    margin-bottom: 20px;   
+}
+
+.but{
+    margin-top: 60px;
+    margin-left: 160px;
+}
+
+.actionbut{
+    height: 20px;
+    width: 30px;
+}
+
+.completed{
+    background-color: rgb(100, 211, 124);
+    margin-left: 10px;
+}
+
+.notcompleted{
+    background-color: rgb(235, 143, 143);
+    margin-left: 10px;
+}
+
+
+h4{
+    margin-left: 80px;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bu{
+    margin-left: 130px;
+}
+
+
+
+
+
+
