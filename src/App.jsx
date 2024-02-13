@@ -1,10 +1,10 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import Cards from './components/Cards';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import EditTask from './components/EditTask';
 
-
+z
 function App() {
   // Load todo data from localStorage or use a default value
   const initialTodo = JSON.parse(localStorage.getItem('todo')) || [
